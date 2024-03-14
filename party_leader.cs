@@ -16,8 +16,8 @@ public class Script: ScriptBase {
     int DEFAULT_FARM_CHECK = 500;
     int DEFAULT_CHECK_RANGE = 300;
 
-    string party_member_bishop = "Sega";   // Party Member 1
-    string party_member_spoiler = "Mendes"; // Party Member 2
+    string party_member_bishop = "";   // Party Member 1
+    string party_member_spoiler = ""; // Party Member 2
 
     Vector[] farm_room = new Vector[]{                     
         new Vector(-114802, -184693, -6743), // 31917
